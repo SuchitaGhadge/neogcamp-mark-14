@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('./coverpic.jpg') no-repeat center center fixed;
+    // background-size: cover;
+}
+
+.container{
+    max-width: 750px;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(50%, 30%);
+    transform-origin: 50% 50%;
+
+
+    .heading{
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        color: #adadad;
+        
+        input{
+            padding: 5px 20px;
+            margin: 5px 0px 10px;
+            outline: none;
+
+            &:hover, &:focus{
+                outline: none;
+            }
+        }
+
+        .button{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            button{
+                margin: 5px 10px 5px;
+                padding: 10px 30px;
+                text-align: center;
+            }
+        }
+        #output-box{
+            margin: 20px 0px;
+            padding: 50px 20px;
+            text-align: center;
+            background: #fff;
+            color: #8b8b8b;
+            line-height: 1.5rem;
+            font-size: 18px;
+            border-radius: 0.5rem;
+        }
+    }
+}
+

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("./coverpic.jpg") no-repeat center center fixed;
+}
+
+.container {
+  max-width: 750px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(50%, 30%);
+          transform: translate(50%, 30%);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.container .heading {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  color: #adadad;
+}
+
+.container main input {
+  padding: 5px 20px;
+  margin: 5px 0px 10px;
+  outline: none;
+}
+
+.container main input:hover, .container main input:focus {
+  outline: none;
+}
+
+.container main .button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.container main .button button {
+  margin: 5px 10px 5px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.container main #output-box {
+  margin: 20px 0px;
+  padding: 50px 20px;
+  text-align: center;
+  background: #fff;
+  color: #8b8b8b;
+  line-height: 1.5rem;
+  font-size: 18px;
+  border-radius: 0.5rem;
+}
+/*# sourceMappingURL=main.css.map */
