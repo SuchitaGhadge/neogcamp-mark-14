@@ -41,12 +41,14 @@ body {
           flex-direction: column;
   padding: 20px;
   color: #adadad;
+  font-size: 18px;
 }
 
 .container main input {
-  padding: 5px 20px;
+  padding: 8px 20px;
   margin: 5px 0px 10px;
   outline: none;
+  font-size: 16px;
 }
 
 .container main input:hover, .container main input:focus {
@@ -67,6 +69,16 @@ body {
   margin: 5px 10px 5px;
   padding: 10px 30px;
   text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.container main .button button:hover, .container main .button button:focus {
+  border: 2px solid #fff;
+  background: #b4b3b39c;
+  color: #fff;
 }
 
 .container main #output-box {
