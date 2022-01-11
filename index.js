@@ -30,9 +30,16 @@ function lossCalculation(initial, final, quantity){
 }
 
 // profit calculation
-function profitCalculation(initial, final, quantity){
-    var profit = (final-initial)*quantity;
-    var percentProfit = ((profit/(initial*quantity))*100).toFixed(2);
+// function profitCalculation(initial, final, quantity){
+//     var profit = (final-initial)*quantity;
+//     var percentProfit = ((profit/(initial*quantity))*100).toFixed(2);
+//     outputBox.innerText = `Yay! Your total profit is ${profit} and your percent gain is ${percentProfit}% 🤑 Keep it up👏`
+//     outputBox.style.color = "green"
+// }
+
+const profitCalculation = (initial, final, quantity) => {
+    const profit  = (final - initial)*quantity;
+    const percentProfit = ((profit/(initial*quantity))*100).toFixed(2);
     outputBox.innerText = `Yay! Your total profit is ${profit} and your percent gain is ${percentProfit}% 🤑 Keep it up👏`
     outputBox.style.color = "green"
 }
